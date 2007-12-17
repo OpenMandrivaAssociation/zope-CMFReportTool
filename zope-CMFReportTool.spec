@@ -16,7 +16,6 @@ Source:     http://www.zope.org/Members/jack-e/CMFReportTool/%{version}/%{Produc
 Requires:   zope
 Obsoletes:  %{Product}
 Buildarch:  noarch
-BuildRoot:  %{_tmppath}/%{name}-%{version}
 
 %description
 CMFReportTool is a Zope which extends the Zope CMF
