@@ -2,7 +2,7 @@
 %define product cmfreporttool
 %define name    zope-%{Product}
 %define version 0.1.1
-%define release %mkrel 7
+%define release %mkrel 8
 
 Name:		%{name}
 Version:	%{version}
@@ -15,7 +15,6 @@ URL:        http://www.zope.org/Members/jack-e/CMFReportTool/
 Source:     http://www.zope.org/Members/jack-e/CMFReportTool/%{version}/%{Product}-%{version}.tar.bz2
 Requires:   zope
 Obsoletes:  %{Product}
-Buildarch:  noarch
 BuildRoot:  %{_tmppath}/%{name}-%{version}
 
 %description
