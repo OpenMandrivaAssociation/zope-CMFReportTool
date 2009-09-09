@@ -2,7 +2,7 @@
 %define product cmfreporttool
 %define name    zope-%{Product}
 %define version 0.1.1
-%define release %mkrel 10
+%define release %mkrel 11
 
 Name:		%{name}
 Version:	%{version}
