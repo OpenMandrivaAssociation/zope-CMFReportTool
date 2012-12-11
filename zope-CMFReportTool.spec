@@ -41,3 +41,32 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %doc README.txt INSTALL.txt TODO.txt LICENSE.txt COPYRIGHT.txt
 %{_libdir}/zope/lib/python/Products/%{Product}
+
+
+%changelog
+* Wed Sep 09 2009 Thierry Vignaud <tvignaud@mandriva.com> 0.1.1-11mdv2010.0
++ Revision: 435529
+- rebuild
+- rebuild
+
+* Sat Aug 09 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.1.1-9mdv2009.0
++ Revision: 269878
+- rebuild early 2009.0 package (before pixel changes)
+
+* Sun May 11 2008 Nicolas Lécureuil <neoclust@mandriva.org> 0.1.1-8mdv2009.0
++ Revision: 205680
+- Should not be noarch ed
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+  + Thierry Vignaud <tvignaud@mandriva.com>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Fri Sep 21 2007 Guillaume Rousse <guillomovitch@mandriva.org> 0.1.1-7mdv2008.0
++ Revision: 91820
+- spec cleanup
+  package renaming
+- package renaming
+- import CMFReportTool
+
