@@ -11,7 +11,7 @@ Summary:    A Zope product to generate PDF reports
 Group:      Development/Python
 License:    GPL
 Group:      System/Servers
-URL:        http://www.zope.org/Members/jack-e/CMFReportTool/
+URL:        https://www.zope.org/Members/jack-e/CMFReportTool/
 Source:     http://www.zope.org/Members/jack-e/CMFReportTool/%{version}/%{Product}-%{version}.tar.bz2
 Requires:   zope
 Obsoletes:  %{Product}
